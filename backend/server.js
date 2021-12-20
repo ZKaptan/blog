@@ -23,7 +23,7 @@ app.get("/api/blogposts/:id/:articleId", (req, res) => {
 	const blog = blogs.find((b) => b.id === id);
 	// const article = blog.articles.find((a) => a.articleId === articleId);
 	// res.json(article);
-	let x = 23;
+	let x = 24;
 });
 
 const PORT = process.env.PORT || 5000;
